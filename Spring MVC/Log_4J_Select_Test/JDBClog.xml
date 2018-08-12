@@ -1,0 +1,52 @@
+<log4j:event logger="com.dheerendra.test.Xml_Select_Test" timestamp="1520830905162" level="INFO" thread="main">
+<log4j:message><![CDATA[Log4jApp1.mod1.XML Select Test Static block log 4j initialized]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.Xml_Select_Test" timestamp="1520830905164" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jApp1.mod1.XML Select Test main method]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.Xml_Select_Test" timestamp="1520830905164" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jApp1.mod1.XML Select Test main method try]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.Xml_Select_Test" timestamp="1520830905333" level="WARN" thread="main">
+<log4j:message><![CDATA[Log4jApp1.mod1.XML Select Driver is load but it is optional]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.Xml_Select_Test" timestamp="1520830905905" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jApp1.mod1.XML Select main connection estabilsh]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.Xml_Select_Test" timestamp="1520830905934" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jApp1.mod1.XML Select main connection create]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.Xml_Select_Test" timestamp="1520830905980" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jApp.mod1.HTMLselectTest.amin(-).ResultSet obj created SELECT EMPNO,ENAME,JOB FROM EMP]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.Xml_Select_Test" timestamp="1520830905989" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jApp1.mod1.XML Select main resultset obj is process]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.Xml_Select_Test" timestamp="1520830905989" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jApp1.mod1.XML Select main.finally block]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.Xml_Select_Test" timestamp="1520830905989" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jApp1.mod1.XML Select main.finally block::ResultSetClosed]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.Xml_Select_Test" timestamp="1520830905989" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jApp1.mod1.XML Select main.finally block::Statemente is Closed]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.Xml_Select_Test" timestamp="1520830905991" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jApp1.mod1.XML Select main.finally block::Connection is Closed]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.Xml_Select_Test" timestamp="1520830905991" level="INFO" thread="main">
+<log4j:message><![CDATA[Log4jApp1.mod1.XML Select main.Application Exited]]></log4j:message>
+</log4j:event>
+

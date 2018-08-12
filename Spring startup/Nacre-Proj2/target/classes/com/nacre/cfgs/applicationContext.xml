@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="dob" class="java.util.Date">
+		<property name="year" value="95" />
+		<property name="month" value="12" />
+		<property name="date" value="12" />
+	</bean>
+
+	<bean id="add" class="com.nacre.beans.Address">
+		<property name="addId" value="12" />
+		<property name="lane1" value="MyHome" />
+		<property name="lane2" value="Gwalior" />
+		<property name="pinCode" value="474012" />
+	</bean>
+
+	<bean id="cus" class="com.nacre.beans.Customer">
+		<constructor-arg>
+			<value>12</value>
+		</constructor-arg>
+	<constructor-arg value="Dheerendra"/>
+	
+	<constructor-arg>
+		<value>8989978112</value>
+	</constructor-arg>
+
+		<property name="add" ref="add" />
+		<property name="dob" ref="dob" />
+		<property name="email" value="dheerendrasingh12@gmail.com" />
+	</bean>
+
+</beans>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	
+	
+	<bean id="bb" class="com.dheerendra.beans.BloodBank">
+	<property name="hospitalName" value="Nacre "/>
+	<property name="location" value="GaribPet"/>
+	<property name="blood">
+	<bean class="com.dheerendra.beans.BloodDetails">
+		<property name="plasma" value="220.5"/>
+		<property name="plate" value="41.5"/>
+		<property name="rbc" value="145.5"/>
+	
+	</bean>
+	
+	</property>
+	</bean>
+	
+</beans>

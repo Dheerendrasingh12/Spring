@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="proc" class="com.dheerendra.beans.Processor" scope="singleton">
+		<property name="capacity" value="1212GHz" />
+		<property name="speed" value="12.12 ClockSpeed" />
+		<property name="processorType" value="Dheerendra" />
+	</bean>
+	<bean id="com" class="com.dheerendra.beans.Computer" scope="singleton">
+		<property name="hardDisk" value="1212TB" />
+		<property name="manufacture" value="Dheerendra Singh" />
+		<property name="processor" ref="proc" />
+		<property name="ramSize" value="12GB" />
+		<property name="romSize" value="1010TB" />
+		<property name="screenSize" value="48" />
+
+	</bean>
+
+	<bean id="procp" class="com.dheerendra.beans.Processor" scope="prototype">
+		<property name="capacity" value="1212GHz" />
+		<property name="speed" value="12.12 ClockSpeed" />
+		<property name="processorType" value="Dheerendra" />
+	</bean>
+	<bean id="coms" class="com.dheerendra.beans.Computer" scope="singleton">
+		<property name="hardDisk" value="1212TB" />
+		<property name="manufacture" value="Dheerendra Singh" />
+		<property name="processor" ref="procp" />
+		<property name="ramSize" value="12GB" />
+		<property name="romSize" value="1010TB" />
+		<property name="screenSize" value="48" />
+
+	</bean>
+
+
+
+<bean id="procs" class="com.dheerendra.beans.Processor" scope="singleton">
+		<property name="capacity" value="1212GHz" />
+		<property name="speed" value="12.12 ClockSpeed" />
+		<property name="processorType" value="Dheerendra" />
+	</bean>
+	<bean id="comp" class="com.dheerendra.beans.Computer" scope="prototype">
+		<property name="hardDisk" value="1212TB" />
+		<property name="manufacture" value="Dheerendra Singh" />
+		<property name="processor" ref="procs" />
+		<property name="ramSize" value="12GB" />
+		<property name="romSize" value="1010TB" />
+		<property name="screenSize" value="48" />
+
+	</bean>
+
+
+
+<bean id="procpp" class="com.dheerendra.beans.Processor" scope="prototype">
+		<property name="capacity" value="1212GHz" />
+		<property name="speed" value="12.12 ClockSpeed" />
+		<property name="processorType" value="Dheerendra" />
+	</bean>
+	<bean id="compp" class="com.dheerendra.beans.Computer" scope="prototype">
+		<property name="hardDisk" value="1212TB" />
+		<property name="manufacture" value="Dheerendra Singh" />
+		<property name="processor" ref="procpp" />
+		<property name="ramSize" value="12GB" />
+		<property name="romSize" value="1010TB" />
+		<property name="screenSize" value="48" />
+
+	</bean>
+
+</beans>

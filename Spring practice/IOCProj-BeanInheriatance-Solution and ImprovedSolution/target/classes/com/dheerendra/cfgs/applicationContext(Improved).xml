@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="Ducati" class="com.dheerendra.beans.Bike" abstract="true">
+	<property name="comp" value="Ducati"/>
+	<property name="engCC" value="500"/>
+	
+	</bean>
+	<bean id="ducati1" class="com.dheerendra.beans.Bike" parent="Ducati">
+	<property name="id" value="MP07DS1212"/>
+	</bean>
+	
+	<bean id="ducati2" class="com.dheerendra.beans.Bike" parent="Ducati">
+	<property name="id"  value="MP09DS1212"/>
+	</bean>
+
+</beans>

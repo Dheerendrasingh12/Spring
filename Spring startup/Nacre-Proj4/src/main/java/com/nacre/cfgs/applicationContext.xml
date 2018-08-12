@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="sdate" class="java.util.Date" />
+	<bean id="edtate" class="java.util.Date">
+		<property name="year" value="110" />
+		<property name="month" value="12" />
+		<property name="date" value="15" />
+	</bean>
+	
+	<bean id="proj" class="com.nacre.beans.Project">
+		<property name="projectTitel" value="Nacre" />
+		<property name="projectId" value="10" />
+		<property name="empSet">
+			<set>
+				<value>Dheerendra</value>
+				<value>Singh</value>
+			</set>
+		</property>
+	<property name="startDate" ref="sdate"/>
+	<property name="endDate" ref="edtate"/>
+	
+	</bean>
+</beans>

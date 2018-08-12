@@ -1,0 +1,14 @@
+DEBUG - Log4jJdbcProj1.mod1.SelectTest1.main(-) method
+DEBUG - Log4jJdbcProj1.mod1.SelectTest1.main().try block
+WARN - Log4jJdbcProj1.mod1.SelectTest1.JDBC Driver Loaded (optional to load driver class)
+INFO - Log4jJdbcProj1.mod1.SelectTest1.connection established 
+DEBUG - Log4jJdbcProj1.mod1.SelectTest1.statement obj is created
+DEBUG - Log4jJdbcProj1.mod1.SelectTest1.main()::SELECT EMPNO,ENAME,JOB FROM EMP QUERY exected and ResultSEt object created
+DEBUG - Log4jJdbcProj1.mod1.SelectTest1.main().ResultSet obj is processed
+DEBUG - Log4jJdbcProj1.mod1.SelectTest1.main().end of try block
+DEBUG - Log4jJdbcProj1.mod1.SelectTest1.main()-->finally block
+DEBUG - Log4jJdbcProj1.mod1.SelectTest1.main().ResultSet obj is closed
+DEBUG - Log4jJdbcProj1.mod1.SelectTest1.main().Statement obj is closed
+DEBUG - Log4jJdbcProj1.mod1.SelectTest1.main().Connection obj is closed
+DEBUG - Log4jJdbcProj1.mod1.SelectTest1.main()-->end of finally block
+DEBUG - Log4jJdbcProj1.mod1.SelectTest1.main()-->end of main(-)

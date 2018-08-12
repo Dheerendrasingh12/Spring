@@ -1,0 +1,14 @@
+DEBUG  com.dheerendra.test.SelectTest.main(SelectTest.java:30)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.main(-) method  12 Mar 2018 17:22:31,632 
+DEBUG  com.dheerendra.test.SelectTest.main(SelectTest.java:32)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.main().try block  12 Mar 2018 17:22:31,632 
+WARN  com.dheerendra.test.SelectTest.main(SelectTest.java:35)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.JDBC Driver Loaded (optional to load driver class)  12 Mar 2018 17:22:31,745 
+INFO  com.dheerendra.test.SelectTest.main(SelectTest.java:38)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.connection established   12 Mar 2018 17:22:32,432 
+DEBUG  com.dheerendra.test.SelectTest.main(SelectTest.java:42)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.statement obj is created  12 Mar 2018 17:22:32,475 
+DEBUG  com.dheerendra.test.SelectTest.main(SelectTest.java:47)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.main()::SELECT EMPNO,ENAME,JOB FROM EMP QUERY exected and ResultSEt object created  12 Mar 2018 17:22:32,513 
+DEBUG  com.dheerendra.test.SelectTest.main(SelectTest.java:55)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.main().ResultSet obj is processed  12 Mar 2018 17:22:32,517 
+DEBUG  com.dheerendra.test.SelectTest.main(SelectTest.java:62)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.main().end of try block  12 Mar 2018 17:22:32,517 
+DEBUG  com.dheerendra.test.SelectTest.main(SelectTest.java:74)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.main()-->finally block  12 Mar 2018 17:22:32,518 
+DEBUG  com.dheerendra.test.SelectTest.main(SelectTest.java:79)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.main().ResultSet obj is closed  12 Mar 2018 17:22:32,518 
+DEBUG  com.dheerendra.test.SelectTest.main(SelectTest.java:88)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.main().Statement obj is closed  12 Mar 2018 17:22:32,518 
+DEBUG  com.dheerendra.test.SelectTest.main(SelectTest.java:97)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.main().Connection obj is closed  12 Mar 2018 17:22:32,520 
+DEBUG  com.dheerendra.test.SelectTest.main(SelectTest.java:102)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.main()-->end of finally block  12 Mar 2018 17:22:32,520 
+DEBUG  com.dheerendra.test.SelectTest.main(SelectTest.java:104)  [main]  test.SelectTest Log4jJdbcProj1.mod1.SelectTest1.main()-->end of main(-)  12 Mar 2018 17:22:32,520 

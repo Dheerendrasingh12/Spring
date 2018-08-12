@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="bus" class="com.nacre.beans.Bus" abstract="true">
+		<property name="busId" value="58245"/>
+		<property name="busName" value="volvo"/>
+		<property name="engineType" value="cng"/>
+		<property name="engineModel" value="2002"/>
+	</bean>
+	
+	<bean id="bus1" class="com.nacre.beans.Bus" primary="true">
+	<property name="busId" value="2845"/>
+	
+	</bean>
+
+</beans>

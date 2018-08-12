@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="dfb" class="com.dheerendra.bean.DateFactoryBean">
+<constructor-arg value="2018"/>
+<constructor-arg value="12"/>
+<constructor-arg value="12"/>
+
+</bean>
+<bean id="scr" class="com.dheerendra.bean.ScheduleRemainder">
+<property name="date" ref="dfb"/>
+
+</bean>
+</beans>

@@ -1,0 +1,18 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="Ducati" class="com.dheerendra.beans.Bike">
+	<property name="id" value="DL1212"/>
+	<property name="comp" value="Ducati"/>
+	<property name="engCC" value="500"></property>
+	</bean>
+	
+	<bean id="Ducati1" class="com.dheerendra.beans.Bike" parent="Ducati">
+	<property name="id" value="TS1212"/>
+	
+	</bean>
+
+
+</beans>

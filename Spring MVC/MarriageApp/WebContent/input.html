@@ -1,0 +1,23 @@
+<h1 style="color: red; text-align: center;">HTML to servlet
+	Communicaton using Forms</h1>
+<br>
+<center>
+	<img src="ds.jpg">
+</center>
+<form action="marriageurl" method="POST" target="f2"
+	onsubmit="return validate(this)">
+	Name :: <input type="text" name="pname" ><span id="pnameErr" style="color: red;"></span>
+	<br>
+	Age :: <input type="text" name="page"><span id="pageErr" style="color: red"></span>
+	<br>
+	
+	Gender :: <input type="radio" name="gender" checked value="M">Male
+	<input type="radio" name="gender" value="F">Female<br>
+	
+	<input type="hidden" name="vflag" value="no"/>
+	
+	<input type="submit" value="Check Marriage Eligibility">
+	
+	</form>
+	
+	<script lang="JavaScript" src="validation.jsp"></script>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="dt" class="java.util.Date"
+	c:year="117"
+	c:month="12"
+	c:date="12"
+
+/>
+
+<bean id="dept" class="com.dheerendra.bean.Dept" c:deptno="12"
+c:dname="Java Developer"
+c:dop-ref="dt"
+	/>
+	
+	<bean id="emp" class="com.dheerendra.bean.EMp"
+		p:ename="Dheerendra"
+		p:eno="0312"
+		p:dept-ref="dept"
+	/>
+
+
+</beans>

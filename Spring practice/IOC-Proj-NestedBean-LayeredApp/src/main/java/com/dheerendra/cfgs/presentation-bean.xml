@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="empCon" class="com.dheerendra.controller.EmpSearch_Controller">
+	<constructor-arg ref="empSer"/>
+
+</bean>
+
+<bean id="empSer" class="com.dheerendra.service.EmpSearch_ServiceImpl">
+<constructor-arg ref="empDAO"/>
+<constructor-arg value="type2"/>
+</bean>
+</beans>

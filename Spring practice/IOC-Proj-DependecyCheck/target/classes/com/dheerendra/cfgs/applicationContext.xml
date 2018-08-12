@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+	<bean id="eng" class="com.dheerendra.beans.Engine">
+	<property name="type" value="disel"></property>
+	</bean>
+	
+	<bean id="vch" class="com.dheerendra.beans.Vechile"  dependency-check="none">
+	<property name="id" value="12"/>
+	<property name="engine" ref="eng"/>
+	</bean>
+</beans>
+        

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans	
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="tps" class="com.dheerendra.beans.Tour_Plan" primary="true">
+        
+		<property name="places">		<!-- expilicit wiring -->
+			<list>
+				<value>Delhi</value>
+				<value>Amritsar</value>
+				<value>Jammu Kashmir</value>
+			</list>
+
+		</property>
+	</bean>
+	
+	<bean id="tpc" class="com.dheerendra.beans.Tour_Plan" >
+	
+	<property name="places">
+	<list>
+	<value>New York</value>
+	<value>Singapur</value>
+	<value>USA</value>
+	</list>
+	
+	</property>
+	
+	</bean>
+	
+	<bean id="tagent" class="com.dheerendra.beans.Tour_Agent" >
+	 <property name="name" value="Dheerendra"/>
+	
+	</bean>
+	
+	
+	
+	
+</beans>

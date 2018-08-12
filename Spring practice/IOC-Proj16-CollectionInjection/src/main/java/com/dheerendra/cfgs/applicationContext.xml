@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans	
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="st" class="com.dheerendra.beans.Student">
+
+		<property name="marks">
+			<list>
+				<value>12</value>
+				<value>09</value>
+			</list>
+		</property>
+
+		<property name="names">
+			<list>
+				<value>Dheerendra</value>
+				<value>K</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="user" class="com.dheerendra.beans.User">
+		<property name="phones">
+			<set>
+				<value>+91-8989978112</value>
+				<value>+91-7000744840</value>
+			</set>
+
+		</property>
+
+	</bean>
+
+
+	<bean id="col" class="com.dheerendra.beans.College">
+		<property name="sub">
+			<map>
+				<entry key="HaiKrishna" value="CORE java" />
+				<entry key="Natraz" value="Adv Java" />
+				<entry key="Murali" value="Oracle"></entry>
+			</map>
+
+
+		</property>
+		<property name="fphone">
+			<map>
+				<entry key="+91-8989978112" value="Singh"></entry>
+				<entry key="+91-9329387605" value="k"></entry>
+			</map>
+		</property>
+	</bean>
+	<bean id="emp" class="com.dheerendra.beans.Employee">
+		<property name="empDes">
+			<props>
+				<prop key="Dheerendra">Software Developer</prop>
+				<prop key="K">CEO</prop>
+			</props>
+
+		</property>
+
+	</bean>
+
+	<bean id="null" class="com.dheerendra.beans.NullInjectionTest">
+	<constructor-arg value="12"/>
+	<constructor-arg value="Dheerendra"/>
+	<constructor-arg><null/></constructor-arg>
+<!-- <null injection>
+ -->	</bean>
+</beans>

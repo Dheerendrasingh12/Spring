@@ -1,0 +1,56 @@
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855724701" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.main(-) method]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855724705" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.main().try block]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855724856" level="WARN" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.JDBC Driver Loaded (optional to load driver class)]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855725361" level="INFO" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.connection established ]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855725424" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.statement obj is created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855725462" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.main()::SELECT EMPNO,ENAME,JOB FROM EMP QUERY exected and ResultSEt object created]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855725466" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.main().ResultSet obj is processed]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855725466" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.main().end of try block]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855725466" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.main()-->finally block]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855725466" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.main().ResultSet obj is closed]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855725466" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.main().Statement obj is closed]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855725468" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.main().Connection obj is closed]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855725468" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.main()-->end of finally block]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="com.dheerendra.test.SelectTest" timestamp="1520855725468" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Log4jJdbcProj1.mod1.SelectTest1.main()-->end of main(-)]]></log4j:message>
+</log4j:event>
+

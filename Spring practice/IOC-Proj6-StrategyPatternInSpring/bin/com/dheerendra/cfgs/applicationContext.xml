@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="pengine" class="com.dheerendra.bean.Petrol"/>
+	<bean id="dengine" class="com.dheerendra.bean.Diesel"/>
+	<bean id="cengine" class="com.dheerendra.bean.CNG"/>
+	
+	<bean id="vechile" class="com.dheerendra.bean.Vechile">
+	<!-- <property name="engine" ref="pengine"></property>
+	 --><property name="engine" ref="dengine"/>
+	</bean>
+ 
+
+</beans>

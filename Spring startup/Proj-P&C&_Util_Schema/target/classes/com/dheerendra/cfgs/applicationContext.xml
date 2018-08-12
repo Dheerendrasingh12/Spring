@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:p="http://www.springframework.org/schema/p"
+xmlns:c="http://www.springframework.org/schema/c"
+
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">	
+<bean id="pat1" class="com.dheerendra.beans.Patient" c:disease="heart" c:name="Dheerendra" c:patientId="12" />
+
+<bean id="pat2" class="com.dheerendra.beans.Patient" c:disease="heart br" c:name="Singh" c:patientId="11" />
+	
+
+<bean id="nurse1" class="com.dheerendra.beans.Nurse" p:nurseId="3" p:nurseName="K" p:dept="Heart sp" p:patientList-ref="pat1"/>
+
+<bean id="nurse2" class="com.dheerendra.beans.Nurse" p:nurseId="20" p:nurseName="D" p:dept="Heart br" p:patientList-ref="pat2"/>
+
+<bean id="doc" class="com.dheerendra.beans.Doctor" p:dept="mind" p:name="Sonu" p:specialist="heart">
+<constructor-arg name="nurse">
+	<list>
+	<ref bean="nurse1"/>
+	<ref bean="nurse2"/>
+	</list>
+</constructor-arg>
+<constructor-arg name="patients">
+	<list>
+		<ref bean="pat1"/>
+		<ref bean="pat2"/>
+	</list>
+
+</constructor-arg>
+
+</bean>
+
+
+</beans>

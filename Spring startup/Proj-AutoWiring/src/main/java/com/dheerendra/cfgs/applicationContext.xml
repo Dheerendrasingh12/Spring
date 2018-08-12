@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="nb" class="com.dheerendra.beans.NacreBus">
+		<property name="noOfEmployee" value="112" />
+		<property name="noOfTravelAgency" value="12" />
+		<property name="ownerName" value="Dheerendra" />
+
+	</bean>
+
+	<bean id="ta" class="com.dheerendra.beans.TravelAgency" autowire="byType">
+	<property name="agencyName" value="Home"/>
+	<property name="ownerName" value="Jitendra"/>
+	<property name="travelAgencyId" value="15"/>
+	<property name="location" value="GWALIOR"/>
+	
+	
+	</bean>
+
+
+
+</beans>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<alias name="bt" alias="hit"/>
+<alias name="pl" alias="ckt"/>
+
+<bean name="bt" id="batting" class="com.dheerendra.beans.Batting"></bean>
+
+<bean name="pl" id="player" class="com.dheerendra.beans.Player"></bean>
+
+</beans>
